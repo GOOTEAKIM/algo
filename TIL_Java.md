@@ -142,3 +142,27 @@ public class BigIntegerModPowExample {
   - result : 결과 값
 ---
 
+### 6/16
+---
+#### 배열 정렬
+
+```java
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {5, 2, 9, 1, 5, 6};
+
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
+    }
+}
+
+```
+
+1. import java.util.Arrays;
+2. 배열 생성
+3. Arrays.sort(`배열 이름`);
+4. 배열을 출력한다 : System.out.println(Arrays.toString(`배열 이름`));
+   - 배열 내의 특정 숫자를 출력하고 싶으면 새로운 변수를 할당 해서 출력해야한다.
+---
