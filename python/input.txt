@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-5 7
-=======
-8
-sbrus.txt
-spc.spc
-acm.icpc
-korea.icpc
-sample.txt
-hello.world
-sogang.spc
-example.txt
->>>>>>> 36f6cc89adcdb9d00bf33fac45a6986ce062c730
+500000000000000000 500000000000000002
