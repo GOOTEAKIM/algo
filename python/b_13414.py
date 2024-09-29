@@ -1,5 +1,4 @@
 import sys
-
 sys.stdin = open('input.txt')
 
 k,l = map(int,sys.stdin.readline().split())
