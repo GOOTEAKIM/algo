@@ -1,17 +1,17 @@
 import sys
 sys.stdin = open('input.txt')
 
-    n = int(input())
+n = int(input())
 
-    book = {}
+book = {}
 
-    arr= list(map(int,input().split()))
+arr= list(map(int,input().split()))
 
-    for i in range(n-1):
-        diff = arr[i+1] - arr[i]
-        if diff in book:
-            book[diff] += 1
-        else:
-            book[diff] = 1
+for i in range(n-1):
+    diff = arr[i+1] - arr[i]
+    if diff in book:
+        book[diff] += 1
+    else:
+        book[diff] = 1
 
-    print(book[min(book)])
+print(book[min(book)])
