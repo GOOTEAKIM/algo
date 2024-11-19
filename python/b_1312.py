@@ -1,10 +1,17 @@
-import sys
-sys.stdin = open('input.txt')
-
-a,b,n = map(int,input().split())
-
-for _ in range(n):
-    a = (a % b) * 10
-result = a // b
-
-print(result)
+7 28
+5 1
+9 17
+1 25
+4 4
+9 9
+6 18
+9
+8 3
+10 8
+5 31
+9 30
+4 2
+6 21
+8 9
+1 24
+12 21
