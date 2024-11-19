@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SSAFY\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\SSAFY\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181950.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181950.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "p_181950.cpp",
+              "DocumentMoniker": "C:\\Users\\SSAFY\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181950.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181950.cpp",
+              "ToolTip": "C:\\Users\\SSAFY\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181950.cpp*",
+              "RelativeToolTip": "programers_basic\\p_181950.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T07:38:04.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
