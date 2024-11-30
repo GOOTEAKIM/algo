@@ -1,1 +1,2 @@
-﻿  programers_basic.vcxproj -> C:\Users\SSAFY\Desktop\algo\C++\programers_basic\x64\Debug\programers_basic.exe
+﻿  p_181923.cpp
+C:\Users\user\Desktop\algo\C++\programers_basic\programers_basic\p_181923.cpp(32,1): error C4716: 'solution': 값을 반환해야 합니다.
