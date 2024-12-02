@@ -1,4 +1,2 @@
-﻿  p_181910.cpp
-C:\Users\user\Desktop\algo\C++\programers_basic\programers_basic\p_181910.cpp(11,20): error C2062: 예기치 않은 'int' 형식입니다.
-C:\Users\user\Desktop\algo\C++\programers_basic\programers_basic\p_181910.cpp(14,9): error C2065: 'n': 선언되지 않은 식별자입니다.
-C:\Users\user\Desktop\algo\C++\programers_basic\programers_basic\p_181910.cpp(16,30): error C2065: 'n': 선언되지 않은 식별자입니다.
+﻿  p_181905.cpp
+  programers_basic.vcxproj -> C:\Users\user\Desktop\algo\C++\programers_basic\x64\Debug\programers_basic.exe
