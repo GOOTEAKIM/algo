@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181897.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181897.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181895.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181895.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181896.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181896.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181894.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181894.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181893.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181893.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181901.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181901.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -235,6 +255,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "p_181897.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181897.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181897.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181897.cpp",
+              "RelativeToolTip": "programers_basic\\p_181897.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T14:49:48.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "p_181896.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181896.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181896.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181896.cpp",
+              "RelativeToolTip": "programers_basic\\p_181896.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T16:39:37.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "p_181895.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181895.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181895.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181895.cpp",
+              "RelativeToolTip": "programers_basic\\p_181895.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T16:23:15.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "p_181894.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181894.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181894.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181894.cpp",
+              "RelativeToolTip": "programers_basic\\p_181894.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T16:30:29.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "p_181893.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181893.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181893.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181893.cpp",
+              "RelativeToolTip": "programers_basic\\p_181893.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T16:43:06.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "p_181901.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181901.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181901.cpp",
@@ -242,12 +327,11 @@
               "RelativeToolTip": "programers_basic\\p_181901.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T16:20:07.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:20:07.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "p_181900.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181900.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181900.cpp",
@@ -255,12 +339,11 @@
               "RelativeToolTip": "programers_basic\\p_181900.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T16:09:49.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:09:49.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "p_181898.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181898.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181898.cpp",
@@ -268,12 +351,11 @@
               "RelativeToolTip": "programers_basic\\p_181898.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T16:05:49.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:05:49.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "p_181899.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181899.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181899.cpp",
@@ -281,12 +363,11 @@
               "RelativeToolTip": "programers_basic\\p_181899.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T16:03:40.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:03:40.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "p_181902.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181902.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181902.cpp",
@@ -294,12 +375,11 @@
               "RelativeToolTip": "programers_basic\\p_181902.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T15:56:11.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:56:11.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "p_181905.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181905.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181905.cpp",
@@ -307,12 +387,11 @@
               "RelativeToolTip": "programers_basic\\p_181905.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T04:47:05.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T04:47:05.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "p_181904.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181904.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181904.cpp",
@@ -324,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "p_181903.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181903.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181903.cpp",
@@ -336,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "p_181906.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181906.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181906.cpp",
@@ -348,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "p_181907.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181907.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181907.cpp",
@@ -360,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "p_181908.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181908.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181908.cpp",
@@ -372,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "p_181909.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181909.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181909.cpp",
@@ -384,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "p_181911.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181911.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181911.cpp",
@@ -396,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "p_181910.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181910.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181910.cpp",
@@ -408,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "p_181912.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181912.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181912.cpp",
@@ -420,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "p_181913.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181913.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181913.cpp",
@@ -432,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "p_181914.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181914.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181914.cpp",
@@ -444,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "p_181916.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181916.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181916.cpp",
@@ -456,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "p_181915.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181915.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181915.cpp",
@@ -468,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "p_181917.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181917.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181917.cpp",
@@ -480,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "p_181919.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181919.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181919.cpp",
@@ -492,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "p_181922.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181922.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181922.cpp",
@@ -504,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "p_181918.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181918.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181918.cpp",
@@ -516,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "p_181921.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181921.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181921.cpp",
@@ -528,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "p_181920.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181920.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181920.cpp",
@@ -540,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "p_181924.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181924.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181924.cpp",
@@ -552,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "p_181923.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181923.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181923.cpp",
@@ -564,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "p_181925.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181925.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181925.cpp",
@@ -576,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "p_181926.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181926.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181926.cpp",
@@ -588,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "p_181927.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181927.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181927.cpp",
@@ -600,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "p_181932.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181932.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181932.cpp",
@@ -612,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "p_181929.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181929.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181929.cpp",
@@ -624,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "p_181931.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181931.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181931.cpp",
@@ -636,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "p_181930.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181930.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181930.cpp",
@@ -648,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "p_181928.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181928.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181928.cpp",
@@ -660,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "p_181933.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181933.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181933.cpp",
@@ -672,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "p_181934.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181934.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181934.cpp",
@@ -684,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "p_181935.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181935.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181935.cpp",
@@ -696,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "p_181936.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181936.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181936.cpp",
@@ -708,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "p_181937.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181937.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181937.cpp",
@@ -720,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "p_181938.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181938.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181938.cpp",
@@ -732,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "p_181939.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181939.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181939.cpp",
@@ -744,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "p_181940.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181940.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181940.cpp",
@@ -756,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "p_181941.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181941.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181941.cpp",
@@ -768,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "p_181942.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181942.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181942.cpp",
@@ -780,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "p_181943.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181943.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181943.cpp",
@@ -792,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "p_181944.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181944.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181944.cpp",
@@ -804,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "p_181946.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181946.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181946.cpp",
@@ -816,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "p_181945.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181945.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181945.cpp",
@@ -828,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "p_181947.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181947.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181947.cpp",
@@ -840,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "input.txt",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\input.txt",
               "RelativeDocumentMoniker": "programers_basic\\input.txt",
@@ -852,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "p_181950.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181950.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181950.cpp",
@@ -864,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "p_181948.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181948.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181948.cpp",
@@ -876,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "p_181949.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181949.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181949.cpp",
@@ -888,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "p_181951.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181951.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181951.cpp",
