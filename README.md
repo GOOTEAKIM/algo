@@ -21,7 +21,7 @@
 1. 문제 풀이 진행 중 (데일리 클래스):
 
     ```md
-    [c++] ing: programmers basic [day 1]
+    [C++] ing: programmers basic [day 1]
     ```
 
 2. 문제 풀이 완료 (데일리 문제):
