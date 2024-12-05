@@ -21,13 +21,13 @@
 1. 문제 풀이 진행 중 (데일리 클래스):
 
     ```md
-    [C++] ing: programmers cpp basic [Day 1]
+    [c++] ing: programmers basic [day 1]
     ```
 
 2. 문제 풀이 완료 (데일리 문제):
 
     ```md
-    [C++] end: programmers cpp codingtest intro [Day 2]
+    [C++] end: programmers codingtest intro [day 2]
     ```
 
 3. 플랫폼별 문제 완료:
