@@ -1,0 +1,3 @@
+# Visual Studio 임시 파일 제외
+.vs/
+*.ipch
