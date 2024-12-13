@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181855.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181855.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181856.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181856.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181857.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181857.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181854.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181854.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181853.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181853.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181858.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F5FF1ADC-1B6E-45D3-A760-D922BE5334E4}|programers_basic\\programers_basic.vcxproj|solutionrelative:programers_basic\\p_181858.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -39,19 +59,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "p_181855.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181855.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181855.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181855.cpp",
+              "RelativeToolTip": "programers_basic\\p_181855.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:25:39.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "p_181856.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181856.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181856.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181856.cpp",
+              "RelativeToolTip": "programers_basic\\p_181856.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:21:11.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "p_181857.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181857.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181857.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181857.cpp",
+              "RelativeToolTip": "programers_basic\\p_181857.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:07:06.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "p_181854.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181854.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181854.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181854.cpp",
+              "RelativeToolTip": "programers_basic\\p_181854.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:04:01.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "p_181853.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181853.cpp",
+              "RelativeDocumentMoniker": "programers_basic\\p_181853.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181853.cpp",
+              "RelativeToolTip": "programers_basic\\p_181853.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:00:06.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "p_181858.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181858.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181858.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181858.cpp",
               "RelativeToolTip": "programers_basic\\p_181858.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-12T14:44:38.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "p_181859.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181859.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181859.cpp",
@@ -59,12 +144,11 @@
               "RelativeToolTip": "programers_basic\\p_181859.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAuwB4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T14:38:32.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T14:38:32.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "p_181860.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181860.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181860.cpp",
@@ -72,12 +156,11 @@
               "RelativeToolTip": "programers_basic\\p_181860.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T13:56:23.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T13:56:23.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "p_181861.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181861.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181861.cpp",
@@ -85,12 +168,11 @@
               "RelativeToolTip": "programers_basic\\p_181861.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T13:53:44.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T13:53:44.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "p_181862.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181862.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181862.cpp",
@@ -98,12 +180,11 @@
               "RelativeToolTip": "programers_basic\\p_181862.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T13:34:21.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T13:34:21.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "p_181863.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programers_basic\\programers_basic\\p_181863.cpp",
               "RelativeDocumentMoniker": "programers_basic\\p_181863.cpp",
@@ -111,8 +192,7 @@
               "RelativeToolTip": "programers_basic\\p_181863.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T13:01:20.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T13:01:20.058Z"
             }
           ]
         }
