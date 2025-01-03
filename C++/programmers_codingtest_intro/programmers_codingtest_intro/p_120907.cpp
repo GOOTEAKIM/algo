@@ -13,14 +13,14 @@ vector<string> solution(vector<string> quiz) {
 
 		stringstream ss(sentence);
 
-		int X, Y, Z;
+		int x, y, z;
 		char op, eq;
 
-		ss >> X >> op >> Y >> eq >> Z;
+		ss >> x >> op >> y >> eq >> z;
 
-		int result = (op == '+') ? (X + Y) : (X - Y);
+		int result = (op == '+') ? (x + y) : (x - y);
 
-		if (result == Z) {
+		if (result == z) {
 			ans.push_back("O");
 		}
 		else

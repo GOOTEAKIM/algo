@@ -16,8 +16,6 @@ vector<int> solution(int n, vector<int> numlist) {
 
 	}
 
-
-
 	return ans;
 
 }
