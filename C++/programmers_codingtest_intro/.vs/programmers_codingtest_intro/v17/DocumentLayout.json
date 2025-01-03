@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120863.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|solutionrelative:programmers_codingtest_intro\\p_120863.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120861.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|solutionrelative:programmers_codingtest_intro\\p_120861.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120862.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|solutionrelative:programmers_codingtest_intro\\p_120862.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120860.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B9B0026-7D5D-489A-80B4-E0EE087CA0BD}|programmers_codingtest_intro\\programmers_codingtest_intro.vcxproj|solutionrelative:programmers_codingtest_intro\\p_120860.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "p_120863.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120863.cpp",
+              "RelativeDocumentMoniker": "programmers_codingtest_intro\\p_120863.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120863.cpp",
+              "RelativeToolTip": "programmers_codingtest_intro\\p_120863.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T16:00:23.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "p_120861.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120861.cpp",
+              "RelativeDocumentMoniker": "programmers_codingtest_intro\\p_120861.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120861.cpp",
+              "RelativeToolTip": "programmers_codingtest_intro\\p_120861.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T15:52:42.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "p_120862.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120862.cpp",
+              "RelativeDocumentMoniker": "programmers_codingtest_intro\\p_120862.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120862.cpp",
+              "RelativeToolTip": "programmers_codingtest_intro\\p_120862.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T15:44:46.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "p_120860.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120860.cpp",
+              "RelativeDocumentMoniker": "programmers_codingtest_intro\\p_120860.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\algo\\C\u002B\u002B\\programmers_codingtest_intro\\programmers_codingtest_intro\\p_120860.cpp",
+              "RelativeToolTip": "programmers_codingtest_intro\\p_120860.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T15:37:49.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
