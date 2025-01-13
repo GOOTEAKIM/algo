@@ -33,16 +33,10 @@
 2. 문제 풀이 완료 (데일리 문제):
 
     ```
-    [C++] end: programmers codingtest intro [day 2]
+    [C++] end: programmers codingtest intro [날짜]
     ```
 
-3. 플랫폼별 문제 완료:
-
-    ```
-    [Python] end: b_8011
-    ```
-
-4. 전체 데이클래스 완료 (예: 24일짜리 데이클래스를 모두 완료한 경우):
+3. 전체 데이클래스 완료 (예: 24일짜리 데이클래스를 모두 완료한 경우):
     ```
     [Python] done: Python Class Day 24 class
     ``` 
