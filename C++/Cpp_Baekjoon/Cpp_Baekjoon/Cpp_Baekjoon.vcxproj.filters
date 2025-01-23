@@ -42,6 +42,12 @@
     <ClCompile Include="b_5671.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="b_2502.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_15353.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
