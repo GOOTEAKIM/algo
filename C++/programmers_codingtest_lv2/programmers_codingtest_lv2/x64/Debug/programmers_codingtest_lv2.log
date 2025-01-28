@@ -1,2 +1,2 @@
-﻿  p_12951.cpp
-  programmers_codingtest_lv2.vcxproj -> C:\Users\user\Desktop\algo\C++\programmers_codingtest_lv2\x64\Debug\programmers_codingtest_lv2.exe
+﻿  p_12914.cpp
+C:\Users\user\Desktop\algo\C++\programmers_codingtest_lv2\programmers_codingtest_lv2\p_12914.cpp(14,2): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다.
