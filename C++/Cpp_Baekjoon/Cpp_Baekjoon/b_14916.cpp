@@ -10,27 +10,22 @@ int main() {
 
 	cin >> n;
 
-	int mok = n / 5;
+	int ans = 100000;
 
-	int ans = 10000;
+	for (int i = 0; i *5 <= n; i++) {
 
-	for (int i = mok; i >= 1; i--) {
+		int remain = n - (i * 5);
 
-		int cnt = 0;
+		if (remain % 2 == 0) {
+			int cnt = i + (remain / 2);
 
-		if ((n - (5 * i)) % 2 == 0) {
-			cnt += i;
-			cnt += ((n - (5 * i)) / 2);
-
+			ans = min(ans, cnt);
 		}
-
-		if (cnt < ans && cnt != 0) {
-			ans = cnt;
-		}
+		
 		
 	}
 
-	if (ans == 10000) {
+	if (ans == 100000) {
 		cout << -1 << "\n";
 	}
 	else
