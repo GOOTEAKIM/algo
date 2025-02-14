@@ -75,6 +75,15 @@
     <ClCompile Include="b_5397.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="b_11286.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_11279.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_1927.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
