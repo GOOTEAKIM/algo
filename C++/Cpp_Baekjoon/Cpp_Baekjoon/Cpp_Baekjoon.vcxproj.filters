@@ -111,6 +111,12 @@
     <ClCompile Include="b_2696.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="b_1193.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_1024.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
