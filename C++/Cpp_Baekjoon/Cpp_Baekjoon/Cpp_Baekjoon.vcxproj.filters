@@ -123,10 +123,11 @@
     <ClCompile Include="b_13975.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input.txt">
+    <ClCompile Include="b_7662.cpp">
       <Filter>소스 파일</Filter>
-    </Text>
+    </ClCompile>
+    <ClCompile Include="b_12764.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
