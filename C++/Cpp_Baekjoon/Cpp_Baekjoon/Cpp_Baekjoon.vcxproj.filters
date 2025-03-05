@@ -186,5 +186,8 @@
     <ClCompile Include="b_24060.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pp.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
