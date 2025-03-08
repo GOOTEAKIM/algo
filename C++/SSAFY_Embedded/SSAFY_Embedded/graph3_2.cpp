@@ -42,6 +42,7 @@ int main() {
 		cin >> from >> to;
 
 		alis[from].push_back(to);
+		alis[to].push_back(from);
 	}
 
 	dfs(0);
