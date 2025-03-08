@@ -225,7 +225,19 @@
     <ClCompile Include="b_1245.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="b_2900.cpp">
+    <ClCompile Include="b_24444.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_24445.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_24446.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_24447.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b_2178.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
