@@ -1,86 +1,87 @@
+#pragma warning(disable:4996)
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cstring>
+#include <queue>
 
 using namespace std;
 
-int n, m;
+int n;
 
-vector<vector<int>> alis;
+int dx[] = { 1,-1,0,0};
+int dy[] = { 0,0,1,-1 };
 
-int visited[100001];
+int alis[25][25];
 
-vector<int> result;
+bool visited[25][25];
 
-int max_hack = 0;
+vector<int> ans;
 
-int dfs(int node) {
+void bfs(int x, int y) {
 
-	visited[node] = 1;
+	queue<pair<int, int>> q;
 
-	int count = 1;
+	q.push({ x,y });
 
-	for (int next : alis[node]) {
-		if (!visited[next]) {
-			count += dfs(next);
+	visited[x][y] = true;
+
+	int cnt = 0;
+
+	cnt++;
+
+	while (!q.empty()) {
+
+		pair<int, int> now = q.front();
+
+		int now_x = now.first;
+		int now_y = now.second;
+
+		q.pop();
+
+
+		for (int i = 0; i < 4; i++) {
+			int nx = now_x + dx[i];
+			int ny = now_y + dy[i];
+
+			if (nx >= 0 && nx < n && ny >= 0 && ny < n) {
+
+				if (visited[nx][ny] == false && alis[nx][ny] == 1) {
+
+					q.push({ nx, ny });
+					visited[nx][ny] = true;
+					cnt++;
+				}
+
+			}
 		}
-	}
 
-	return count;
+	}
+	ans.push_back(cnt);
 }
 
 int main() {
 
-	cin >> n >> m;
+	cin >> n;
 
-	alis.resize(n + 1);
-
-	for (int i = 0; i < m; i++) {
-		int a, b;
-
-		cin >> a >> b;
-
-		alis[b].push_back(a);
-
-	}
-
-	for (int i = 1; i <= n; i++) {
-
-		memset(visited, 0, sizeof(visited));
-
-		int count = dfs(i);
-
-		if (count > max_hack) {
-			max_hack = count;
-
-			result.clear();
-			result.push_back(i);
-		}
-
-		else if (count == max_hack) {
-			result.push_back(i);
-		}
-
-	}
-
-	for (int i = 0; i < result.size(); i++) {
-
-		cout << result[i];
-		if (i != result.size() - 1) {
-			cout << " ";
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			scanf("%1d", &alis[i][j]); // 띄어쓰기 없이 input 받기
 		}
 	}
 
-	return 0;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			if (visited[i][j] == false && alis[i][j] == 1) { // 방문하지 않았고 1일때만 탐색
+				bfs(i, j);
+			}
+		}
+	}
+
+	sort(ans.begin(), ans.end()); // 정렬
+
+	cout << ans.size() << "\n";
+
+	for (int i = 0; i < ans.size(); i++) {
+		cout << ans[i] << "\n";
+	}
 }
-/*
-
-1	3
-2	3
-3	4	5
-
-1	4
-2	5
-
-*/
