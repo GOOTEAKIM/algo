@@ -5,93 +5,90 @@
 
 using namespace std;
 
-vector<int> adj[1001];
+int n, m;
 
-bool visited_dfs[1001];
-bool visited_bfs[1001];
+vector<vector<int>> alis;
 
-void dfs(int node) {
+vector<bool> dfs_visited;
 
-	visited_dfs[node] = true;
+vector<bool> bfs_visited;
 
-	cout << node << " ";
+void dfs(int start) {
 
-	for (int i = 0; i < adj[node].size(); i++) {
+	dfs_visited[start] = true;
+
+	cout << start << " ";
+
+	for (int i = 0; i < alis[start].size(); i++) {
 		
-		int next = adj[node][i];
+		int next = alis[start][i];
 
-		if (!visited_dfs[next]) {
+		if (!dfs_visited[next]) {
 			dfs(next);
 		}
+
 	}
 
 }
-
-
-// adj
-//
-//1		2 3
-//2		1
-//3		1 4 5
-//4		3 5
-//5		3 4
-
-
-//
-
-//1		2 3 4
-//2		1 4
-//3		1 4
-//4		1 2 3
 
 void bfs(int start) {
 
 	queue<int> q;
 
-	visited_bfs[start] = true;
-
 	q.push(start);
+
+	bfs_visited[start] = true;
 
 	while (!q.empty()) {
 
-		int node = q.front();
+		int now = q.front();
+
 		q.pop();
-		cout << node << " ";
 
-		for (int i = 0; i < adj[node].size(); i++) {
-			
-			int next = adj[node][i];
+		cout << now << " ";
 
-			if (!visited_bfs[next]) {
-				visited_bfs[next] = true;
+		for (int i = 0; i < alis[now].size(); i++) {
+
+			int next = alis[now][i];
+
+			if (!bfs_visited[next]) {
 
 				q.push(next);
-			}
-		}
 
+				bfs_visited[next] = true;
+
+			}
+
+		}
 	}
 
 }
 
 int main() {
 
-	int n, m, v;
+	int v;
 
 	cin >> n >> m >> v;
 
+	alis.resize(n + 1);
+
+	dfs_visited.assign(n + 1, false);
+	
+	bfs_visited.assign(n + 1, false);
+
 	for (int i = 0; i < m; i++) {
 
-		int a, b;
+		int from, to;
 
-		cin >> a >> b;
+		cin >> from >> to;
 
-		adj[a].push_back(b);
-		adj[b].push_back(a);
+		alis[from].push_back(to);
+		alis[to].push_back(from);
 
 	}
 
-	for (int i = 1; i <= n; i++) {
-		sort(adj[i].begin(), adj[i].end());
+	for (int i = 0; i < alis.size(); i++) {
+		sort(alis[i].begin(), alis[i].end());
 	}
 
 	dfs(v);
