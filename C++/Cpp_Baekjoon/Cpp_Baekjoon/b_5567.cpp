@@ -40,8 +40,6 @@ void bfs(int node) {
 
 	}
 
-
-
 }
 
 int main() {
