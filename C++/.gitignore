@@ -2,4 +2,4 @@
 .vs/
 *.ipch
 *.obj
-**/Debug/
+*/x64/Debug/
