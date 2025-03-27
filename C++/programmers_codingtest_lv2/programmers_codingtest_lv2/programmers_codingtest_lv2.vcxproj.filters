@@ -120,10 +120,13 @@
     <ClCompile Include="p_132265.cpp">
       <Filter>리소스 파일\소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="b_154538.cpp">
+    <ClCompile Include="p_154538.cpp">
       <Filter>리소스 파일\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="p_87946.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p_49993.cpp">
       <Filter>리소스 파일\소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
