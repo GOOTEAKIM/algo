@@ -1,5 +1,2 @@
-﻿  b_2960.cpp
-C:\Users\user\Desktop\algo\C++\Cpp_Baekjoon\Cpp_Baekjoon\b_2960.cpp(33,6): error C2561: 'main': 함수는 값을 반환해야 합니다.
-      C:\Users\user\Desktop\algo\C++\Cpp_Baekjoon\Cpp_Baekjoon\b_2960.cpp(7,5):
-      'main' 선언을 참조하십시오.
-  
+﻿  b_1138.cpp
+  Cpp_Baekjoon.vcxproj -> C:\Users\user\Desktop\algo\C++\Cpp_Baekjoon\x64\Debug\Cpp_Baekjoon.exe
