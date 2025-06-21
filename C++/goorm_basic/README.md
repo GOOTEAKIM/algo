@@ -51,3 +51,68 @@
 
   - int 크기 : **±2 × 10⁹**
   - long long 크기 : **±9 × 10¹⁸**
+
+- **g_175018 수열**
+ 
+  - 피보나치 수열
+
+    ```C++
+    f(n) = f(n-1) + f(n-2); 
+    ```  
+
+- **g_175177 거스름돈**
+  - 동전 종류 : 40, 20, 10, 5, 1
+
+    ```C++
+    // while true 로 놓고 본인 돈이 5보다 작아지면 break
+    // 가장 큰 동전의 개수 count 
+
+    int n = 55;
+    int ans = 0;
+
+    while(true) {
+        if(n > 40) {
+          ans += (n/40);
+          n %= 40; // n 재할당
+        } 
+        ...
+        ...
+        ...
+        else { // 5보다 작을 때
+          ans += n;
+          break;
+        }
+
+    }
+
+    ```
+
+- **g_175194 구름 스퀘어**
+  - 시작 시간, 종료 시간이 주어진다.
+  - 행사 시간이 겹치지 않게 **최대한 많은 행사**를 해야한다.
+  
+    ```C++
+    #include <vector>
+    #include <algorithm>
+
+    vector<pair<long long,long long>> arr(n);
+
+    for(int i = 0; i <n; i++) {
+
+      int start, finish;
+
+      cin >> start >> finish;
+      
+      arr.push_back({finish, start}); // 종료 시간이 먼저 나오게 arr 구성
+    }
+
+    sort(arr.begin(), arr.end()); // 종료 시간이 가장 빠르도록 정렬
+
+    // 다음 행사 출발 시간 > 이전 행사 종료 시간? => cnt++
+
+    ```
+
+- **g_191018 구름 아이돌**
+
+  - 내림차순 정렬
+  - index + 1 출력
