@@ -165,3 +165,31 @@
   - 소수점까지 구해야 한다 -> double로 받는다
   - 조건문을 걸어서 밀도, 무게, index를 기록
   - 밀도가 같다면 무게를 비교, 비교하여 더 높다면 무게, index 갱신
+
+- **g_174760 단어 필터**
+
+  - 기존 단어에서 필터링 할 단어가 있는지 판단
+  - 있으면 계속 있는대로 지운다.
+
+    ```C++
+    #include <string>
+
+    while (true) {
+
+      int pos = E.find(S);
+      
+      // int idx = E.find(S)  ;
+      // E 에서 S가 존재한다면 E에서 S가 시작하는 idx 반환
+      // 만약 없다면? string::npos 반환
+
+      if (pos == string::npos) {
+          break;
+      }
+
+      E.erase(pos, S.length());
+      
+      // E에서 pos부터 E의 길이만큼 지운다
+      
+      // string.erase(int, int);
+    }
+    ```
