@@ -193,3 +193,8 @@
       // string.erase(int, int);
     }
     ```
+
+- **g_175240 Stack**
+
+  - stack의 특성인 후입선출을 구현
+  - Overflow, Underflow 도 구현해야 한다.
