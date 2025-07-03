@@ -198,3 +198,108 @@
 
   - stack의 특성인 후입선출을 구현
   - Overflow, Underflow 도 구현해야 한다.
+
+- **g_177478 뭉친 K**
+
+  - n*n 크기의 배열이 주어진다
+  - 배열의 x,y의 좌표에 위치한 숫자 중 상하좌우 인접한 수 중 x,y 좌표 값이랑 같은 수의 개수 -> 뭉친 그룹
+  - x,y의 좌표 값이랑 같은 수 중 가장 큰 뭉친 그룹의 크기를 구한다
+  
+    - bfs로 탐색
+      - 상하좌우로 탐색
+      - 방문하지 않고 target이랑 같은 숫자라면?
+      - cnt 증가
+
+        ```C++
+        #include <vector>
+        #include <queue>
+
+        // 상하좌우 방향 배열
+        int dx[] = {1,-1,0,0};
+        int dy[] = {0,0,1,-1};
+
+        using namespace std;
+
+        int bfs(int y, int x) {
+
+          int cnt = 1;
+
+          int cost = alis[y][x];
+          
+          queue<pair<int,int>> q;
+
+          q.push({y,x}); // q에 push 
+
+          visited[y][x] = true; // 방문 처리
+
+          while(!q.empty()) {
+
+            int now_y = q.front().first;
+            int now_x = q.front().second;
+
+            int now = alis[now_y][now_x];
+            
+            q.pop();
+
+            for(int i = 0; i < 4; i++) { // 4가지 방향 탐색
+              
+              int ny = now_y + dy[i];
+              int nx = now_x + dx[i];
+
+              if(ny >= 0 && ny < n && nx >= 0 && nx < n) { // 배열 내에 위치하는지 판단
+                
+                if(!visited[ny][nx]) { // 방문 안하고
+
+                  int next = alis[ny][nx];
+
+                  if(next == now) { // 값이 같다면?
+                    
+                    q.push({ny,nx}); // q에 push 
+
+                    visited[ny][nx] = true; // 방문처리
+                    
+                    cnt++; // 카운트 증가
+                  }
+                  
+                }
+              }
+            }
+            
+          }
+          return cnt;
+          
+        }
+        
+        ```
+
+    - 배열에서 x,y 좌표에 위치한 숫자 -> target
+    - target이상 같은 숫자 && 방문하지 않았다면? bfs 탐색
+
+      ```C++
+      #include <vector>
+      #include <queue>
+
+      using namespace std;
+
+      int target = alis[y-1][x-1]; // 좌표가 인덱스 값이므로 x,y에 -1 해주는 것을 주의한다.
+
+      int max_cnt = 0; // 가장 큰 그룹의 크기
+
+      for(int i=0; i<n; i++) {
+          for(int j=0; j<n; j++) {
+
+              if(!visited[i][j] && alis[i][j] == target) { // 방문하지 않고, target이랑 같ㅇ느 숫자?
+                  
+                int ans = bfs(i,j); // bfs 탐색
+
+                if(ans > max_cnt) {
+                  max_cnt = ans; // 그룹의 최대 크기 갱신
+                }
+          
+              }
+          }
+      }
+
+      cout << max_cnt; // 답 출력
+
+      ````
