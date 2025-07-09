@@ -182,6 +182,63 @@
   - 배열에서 완전탐색으로 0의 x,y를 찾는다
   - 배열에서 완전탐색으로 x,y 부분을 다 더해서 출력
 
+- **g_174717 큰 수식 찾기**
+
+  - 문자열로 input을 받는다
+  - 식이 길어 질수록 답이 커질수도 있으니까 long long으로 출력한다
+  - char로 받으면서 isdigit을 써서 숫자인지 연산자 인지 판단한다
+    ```C++
+    vector<long long> nums; // 숫자
+    vector<char> ops; // 연산자
+
+    int n = expr.size();
+	
+    int i = 0;
+
+    while (i < n) {
+
+        if (isdigit(expr[i])) { // 숫자라면?
+            long long num = 0;
+            while (i < n && isdigit(expr[i])) { // 숫자만 계속 나올 때까지
+                num = num * 10 + (expr[i] - '0');
+                i++;
+            }
+            nums.push_back(num); // 숫자 push
+			
+        } else { // 연산자라면?
+            ops.push_back(expr[i]);
+            i++;
+        }
+    }
+    ```
+
+  - 연산자 중에서도 *인 경우 우선순위로 계산해야 한다
+
+    ```C++
+    // 곱셈 먼저 처리
+    for (int i = 0; i < ops.size(); i++) {
+        if (ops[i] == '*') {
+            nums[i] = nums[i] * nums[i + 1];
+            nums.erase(nums.begin() + i + 1);
+            ops.erase(ops.begin() + i);
+            i--; // 중요
+        }
+    }
+
+    // +, - 연산 순서대로 처리
+    long long res = nums[0];
+    for (int i = 0; i < ops.size(); i++) {
+        if (ops[i] == '+') {
+            res += nums[i + 1];
+        } else if (ops[i] == '-') {
+            res -= nums[i + 1];
+        }
+    }
+
+    return res;
+    ```
+
+
 - **g_175241 Queue**
 
   - queue의 특성인 선입 선출을 구현.
