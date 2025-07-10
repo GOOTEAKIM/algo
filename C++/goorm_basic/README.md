@@ -251,10 +251,34 @@
   - 조건문을 걸어서 밀도, 무게, index를 기록
   - 밀도가 같다면 무게를 비교, 비교하여 더 높다면 무게, index 갱신
 
-- **g_175240 Stack**
+- **g_177450 보드 게임**
 
-  - stack의 특성인 후입선출을 구현
-  - Overflow, Underflow 도 구현해야 한다.
+  - 말을 옮길 때 1 또는 3만큼 옮길 수 있다
+  - 수학적 or dp?
+  - 1, 1, 2, 3, 4, 6 ... 이런 식으로 증가
+  - => fibo 느낌
+
+    ```C++
+    #include <iostream>
+    #include <vector>
+
+    vector<long long> dp(n + 1, 0); // 값이 엄청 많이 커질 수도 있으니까 long long
+
+    dp[1] = 1; 
+    dp[2] = 1; 
+    dp[3] = 2; 
+
+    if (n < 4) {
+      cout << dp[n]; // 4보다 작으면 그냥 바로 출력
+    } else {
+	
+	    for (int i = 4; i <= n; i++) {
+	      dp[i] = (dp[i - 1] + dp[i - 3]) % 1000000007;  // 계산 후 1000000007로 바로 나눠준다
+	    }
+	
+	    cout << dp[n] << endl;
+    }
+    ```
 
 - **g_177478 뭉친 K**
 
@@ -345,7 +369,7 @@
       for(int i=0; i<n; i++) {
           for(int j=0; j<n; j++) {
 
-              if(!visited[i][j] && alis[i][j] == target) { // 방문하지 않고, target이랑 같ㅇ느 숫자?
+              if(!visited[i][j] && alis[i][j] == target) { // 방문하지 않고, target이랑 같은 숫자?
                   
                 int ans = bfs(i,j); // bfs 탐색
 
@@ -360,6 +384,11 @@
       cout << max_cnt; // 답 출력
 
       ````
+
+- **g_175240 Stack**
+
+  - stack의 특성인 후입선출을 구현
+  - Overflow, Underflow 도 구현해야 한다.
 
 - **g_174924 연속 점수**
 
