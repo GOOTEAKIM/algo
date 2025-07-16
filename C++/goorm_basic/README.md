@@ -441,7 +441,7 @@
 
     ```
 
-- g_177463 RGB 주차장
+- **g_177463 RGB 주차장**
 
   - 색깔은 3가지
   - 인접하는 칸과 다른 색으로 칠해야한다.
@@ -466,3 +466,98 @@
     cout << ans;
     
     ```
+
+- **g_175928 규칙 숫자 야구**
+
+  - 기준 숫자, 현재 숫자, 4자리 수의 숫자 2개가 주어진다
+  - 총 두 숫자가 같아질 때까지 몇 번 카운팅을 하는가?
+
+    ```C++
+    
+    bool isMatch() { // 정답과 같은가?
+
+      for (int i = 0; i < 4; ++i) {
+          if (ans[i] != guess[i]) return false;
+      }
+      return true;
+    }
+
+    ```
+
+  - 비교를 할 때 각 숫자의 같은 인덱스에 같은 숫자가 위치한다 -> Strike
+  - 숫자가 존재하지만 인덱스는 다르다 -> Ball
+  - 숫자가 그냥 없다 -> Fail
+
+  - Strike : 스트라이크인 인덱스 저장
+  - Ball : 스트라이크은 인덱스 제외하고 rotate
+  - Fail : 기준 숫자 안에 위치한 숫자가 나올 때까지 +1
+
+    ```C++
+      int cnt = 1;
+
+      while (!isMatch()) { // 만족할 때까지 반복
+
+        vector<int> strike_idx; // 스트라이크의 위치
+
+        bool isBall = false; // 볼인가?
+
+        for (int i = 0; i < 4; ++i) {
+            
+            if (guess[i] == ans[i]) {
+
+                strike_idx.push_back(i); // 스트라이크 위치 파악
+                continue;
+            
+            }
+
+            if (find(ans.begin(), ans.end(), guess[i]) == ans.end()) { // fail?
+
+                int newNum = guess[i];
+                
+                while (find(guess.begin(), guess.end(), newNum) != guess.end()) { // fail 규칙에 따라 다른 위치에 존재하지 않을 때까지 +1
+                    newNum = (newNum + 1) % 10;
+                }
+
+                guess[i] = newNum; // 위치 고정
+                continue;
+            }
+            isBall = true; // 볼이다!
+        }
+
+        if (isBall) { // 볼이라면
+            
+            vector<int> stNums; // 스트라이크 숫자 모음
+            
+            for (int idx : strike_idx) {
+                stNums.push_back(guess[idx]);
+            }
+
+            for (int s : stNums) {
+            
+                auto it = find(guess.begin(), guess.end(), s); // 스트라이크 숫자가 있는 guess의 인덱스 파악
+
+                if (it != guess.end()) { // 오른쪽 맨 끝에 있는게 아니라면?
+
+                    guess.erase(it); // 삭제
+
+                }
+            }
+
+            // 맨 끝이라면?
+            int last = guess.back();
+
+            guess.pop_back();
+
+            guess.insert(guess.begin(), last);
+
+            for (size_t i = 0; i < strike_idx.size(); ++i) {
+                guess.insert(guess.begin() + strike_idx[i], stNums[i]); // 스트라이크를 원래 자리에 넣는다
+            }
+        }
+        cnt++; // 카운팅
+    }
+
+    cout << cnt << endl;
+
+    ```
+  
