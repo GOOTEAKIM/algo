@@ -172,11 +172,6 @@
     }
     ```
 
-- **g_174909 M배 배열**
-
-  - 배열의 요소가 m의 배수이면 그대로 출력
-  - 아니라면 m 곱하여 출력
-
 - **g_175011 0 채우기**
 
   - 배열에서 완전탐색으로 0의 x,y를 찾는다
@@ -238,6 +233,10 @@
     return res;
     ```
 
+- **g_174909 M배 배열**
+
+  - 배열의 요소가 m의 배수이면 그대로 출력
+  - 아니라면 m 곱하여 출력
 
 - **g_175241 Queue**
 
@@ -250,6 +249,57 @@
   - 소수점까지 구해야 한다 -> double로 받는다
   - 조건문을 걸어서 밀도, 무게, index를 기록
   - 밀도가 같다면 무게를 비교, 비교하여 더 높다면 무게, index 갱신
+
+- **g_174924 연속 점수**
+
+  - 점수를 얻는 방법
+    1. 한 문제를 풀고 그 문제의 점수 만큼만 점수를 얻는다
+    2. 한 문제를 풀고 연속으로 문제를 풀때 다음 문제의 점수가 1 차이나면 그 문제의 점수도 얻는다
+
+  - 우선 배열의 가장 큰 숫자를 1번에 해당하는 점수로 기준 잡는다
+
+    ```C++
+
+    #include <vector>
+    #include <algorithm>
+
+    int num = *max_element(arr.begin(), arr.end()); // arr에서 가장 큰 값을 기준으로 정한다
+
+    int now = arr[0];
+
+    int total = now;
+    ```
+
+  - 배열을 탐색하면서 2번 방식의 점수 얻는 법을 계산해보고 둘 중에 큰 것을 반환한다.
+
+    ```C++
+
+    #include <vector>
+    #include <algorithm>
+
+    for(int i = 1; i < n; i++) {  
+
+		    int next = arr[i];
+
+		    if(next - now == 1) { // 이전 숫자와 1 차이난다면?
+            total += next; // 총합 갱신
+            now = next; // 이전 숫자 갱신
+
+            if(total > num) { 
+              num = total; // 최고 점수 갱신
+            }
+        } 
+      
+        else { // 이전 숫자보다 1넘게 차이 난다면?
+          total = next;
+          now = next;
+        }
+		
+    }
+	
+	cout << num; // 최종 점수 반환
+
+    ```
 
 - **g_177450 보드 게임**
 
@@ -389,57 +439,6 @@
 
   - stack의 특성인 후입선출을 구현
   - Overflow, Underflow 도 구현해야 한다.
-
-- **g_174924 연속 점수**
-
-  - 점수를 얻는 방법
-    1. 한 문제를 풀고 그 문제의 점수 만큼만 점수를 얻는다
-    2. 한 문제를 풀고 연속으로 문제를 풀때 다음 문제의 점수가 1 차이나면 그 문제의 점수도 얻는다
-
-  - 우선 배열의 가장 큰 숫자를 1번에 해당하는 점수로 기준 잡는다
-
-    ```C++
-
-    #include <vector>
-    #include <algorithm>
-
-    int num = *max_element(arr.begin(), arr.end()); // arr에서 가장 큰 값을 기준으로 정한다
-
-    int now = arr[0];
-
-    int total = now;
-    ```
-
-  - 배열을 탐색하면서 2번 방식의 점수 얻는 법을 계산해보고 둘 중에 큰 것을 반환한다.
-
-    ```C++
-
-    #include <vector>
-    #include <algorithm>
-
-    for(int i = 1; i < n; i++) {  
-
-		    int next = arr[i];
-
-		    if(next - now == 1) { // 이전 숫자와 1 차이난다면?
-            total += next; // 총합 갱신
-            now = next; // 이전 숫자 갱신
-
-            if(total > num) { 
-              num = total; // 최고 점수 갱신
-            }
-        } 
-      
-        else { // 이전 숫자보다 1넘게 차이 난다면?
-          total = next;
-          now = next;
-        }
-		
-    }
-	
-	cout << num; // 최종 점수 반환
-
-    ```
 
 - **g_177463 RGB 주차장**
 
