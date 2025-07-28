@@ -49,3 +49,57 @@
     printf("%.2f", ans); // 소수 2째자리에서 반올림으로 출력 
     // (소수점 셋째자리 숫자는 없으므로 사실상 둘째 자리에서 출력)
     ```
+
+- **g_49054 어려운 문제**
+  - 팩토리얼 연산을 한다
+
+  ```C++
+  void multiply(vector<int>& digits, int num) { // 배열, 숫자
+
+      int carry = 0;
+
+      for (int i = 0; i < digits.size(); i++) {
+
+          int product = digits[i] * num + carry;
+          digits[i] = product % 10;
+          carry = product / 10;
+
+      }
+
+      while (carry > 0) {
+
+          digits.push_back(carry % 10);
+          carry /= 10;
+
+      }
+  }
+  ```
+
+  - 각 자리 수 합을 했을 때 10보다 작으면 종료
+  - 아니면 계속 각 자리 수 합을 구한다
+
+  ```C++
+  int digitalRoot(const vector<int>& digits) {
+
+      int sum = 0;
+
+      for (int d : digits) {
+          sum += d;
+      }
+
+      while (sum >= 10) {
+          
+          int temp = 0;
+
+          while (sum > 0) {
+              temp += sum % 10;
+              sum /= 10;
+          }
+          
+          sum = temp;
+      
+      }
+
+      return sum;
+  }
+  ```
