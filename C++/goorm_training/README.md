@@ -103,3 +103,66 @@
       return sum;
   }
   ```
+
+- **g_159545 0커플**
+  - 배열에서 두 수를 더해서 0이 되면 없앤다
+  - 남은 수들의 합을 구하라
+  - q를 이용해서 q의 front랑 현재 수를 더해서 0이 되면 pop, 아니라면 push 한다
+
+    ```C++
+    #include <queue>
+
+    queue<int> q;
+
+    for(int i = 0; i < n; i++) {
+
+        int num;
+
+        cin >> num;
+
+        if(q.empty()) {
+            q.push(num);
+        } else {
+
+            int now = q.front();
+
+            int total = num + now;
+            
+            if(total == 0) {
+                q.pop();
+            } else {
+                q.push(num);
+            }
+            
+        }
+        
+    }
+    ```
+
+  - q가 비어있다면 0 출력, 아니라면 q의 합을 구한다
+
+    ```C++
+    if(q.empty()) {
+
+        cout << 0;
+
+        return 0;
+
+    }
+
+    int ans = 0;
+
+    while(!q.empty()) {
+
+        int now = q.front();
+
+        ans += now;
+
+        q.pop();
+
+    }
+
+    cout << ans;
+	
+	return 0;
+    ```
