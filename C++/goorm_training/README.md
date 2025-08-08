@@ -208,3 +208,83 @@
 	
 	return 0;
     ```
+
+# 주차시스템
+
+- 주차가능한 구역 중 점수가 가장 높은 곳 출력
+- 없다면 0 출력
+- 장애인 칸은 -2
+- 빈칸은 +1
+- 방문하지 않고 빈칸인 경우 bfs 탐색
+
+    ```C++
+    for(int i = 0; i < n; i++) {
+        
+        for(int j = 0; j < m; j++) {
+
+            if(!visited[i][j] && alis[i][j] == 0) {
+            
+                int cnt = bfs(i,j);
+
+                if(cnt > ans) ans = cnt;
+                
+            } 
+        }
+    }
+    ```
+
+- 빈칸이니 total 값을 1부터 시작
+- 장애인 칸이면 -2, 빈칸이면 +1
+
+    ```C++
+    int bfs(int y, int x) {
+
+        queue<pair<int,int>> q;
+
+        q.push({y,x});
+
+        visited[y][x] = true;
+
+        int total = 1;
+        
+        while(!q.empty()) {
+
+            int now_y = q.front().first;
+            int now_x = q.front().second;
+
+            q.pop();
+
+            for(int i = 0; i < 4; i++) {
+
+                int ny = now_y + dy[i];
+                int nx = now_x + dx[i];
+
+                if(ny >= 0 && ny < n && nx >= 0 && nx < m) { 
+                    
+                    if(!visited[ny][nx]) { // 방문하지 않았다면
+
+                        if(alis[ny][nx] == 0) { // 빈 칸
+                            
+                            q.push({ny,nx});
+
+                            visited[ny][nx] = true;
+
+                            total += 1;
+                            
+                        } else if (alis[ny][nx] == 2) { // 장애인 칸
+                            
+                            q.push({ny,nx});
+
+                            visited[ny][nx] = true;
+                            
+                            total -= 2;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        
+        return total;
+    }
+    ```
