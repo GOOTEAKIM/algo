@@ -42,5 +42,8 @@
     <ClCompile Include="g_49088.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="g_47883.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
