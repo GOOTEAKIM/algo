@@ -288,3 +288,72 @@
         return total;
     }
     ```
+
+### 심리적 거리감
+
+- 심리적 거리감 == 최소 다리 개수 + 두 섬 번호 차이의 절댓값
+- bfs로 다리 개수를 세서 visited에 갱신
+
+    ```C++
+    vector<int> visited;
+
+    void bfs(int x) {
+        
+        queue<pair<int,int>> q;
+        
+        visited[x] = 0; // 시작점 거리 0
+        
+        q.push({x, 0});
+
+        while (!q.empty()) {
+            
+            int now = q.front().first;
+            
+            int bridges = q.front().second;
+            
+            q.pop();
+
+            for (int next : alis[now]) {
+                
+                if (visited[next] == -1) { // 방문 안 한 경우
+                    
+                    visited[next] = bridges + 1;
+                    
+                    q.push({next, visited[next]});
+                }
+            }
+        }
+    }
+
+    bfs(k);
+
+    ```
+
+- 완전탐색으로 최대 심리적 거리감을 구함
+- 만약에 동일하다면? 번호가 가장 큰 섬을 출력 
+
+    ```C++
+    int cost = 0;
+
+    int idx = -1;
+
+    for (int i = 1; i <= n; i++) {
+        
+        if (i == k) continue;
+        
+        if (visited[i] != -1) { // 도달 가능한 경우만
+            
+            int total = visited[i] + abs(k - i);
+            
+            if (total > cost || (total == cost && i > idx)) {
+                
+                cost = total;
+                idx = i;
+                
+            }
+            
+        }
+    }
+
+    cout << idx;
+    ```
