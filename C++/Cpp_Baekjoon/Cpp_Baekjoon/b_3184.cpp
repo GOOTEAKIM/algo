@@ -1,20 +1,27 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include <queue>
+#include <algorithm>
 
 using namespace std;
 
-int h, w;
+int r, c;
 
-vector<vector<char>> alis;
+vector<string> alis;
 
 vector<vector<bool>> visited;
 
+int sheeps = 0, wolves = 0;
+
+int dx[] = { 1,-1, 0,0 };
 int dy[] = { 0,0,1,-1 };
-int dx[] = { 1,-1,0,0 };
 
 void bfs(int y, int x) {
+
+	int she = 0, wol = 0;
+
+	if (alis[y][x] == 'v') wol++;
+	else if (alis[y][x] == 'o') she++;
 
 	queue<pair<int, int>> q;
 
@@ -30,69 +37,59 @@ void bfs(int y, int x) {
 		q.pop();
 
 		for (int i = 0; i < 4; i++) {
-
+			
 			int ny = now_y + dy[i];
 			int nx = now_x + dx[i];
 
-			if (nx >= 0 && nx < w && ny >= 0 && ny < h) {
-				if (alis[ny][nx] == '#' && !visited[ny][nx]) {
-					q.push({ ny,nx });
+			if (ny >= 0 && ny < r && nx >= 0 && nx < c && !visited[ny][nx]) {
+				
+				int next = alis[ny][nx];
 
-					visited[ny][nx] = true;
-				}
+				if (next == '#') continue;
+
+				q.push({ ny,nx });
+				visited[ny][nx] = true;
+
+				if (next == 'v') wol++;
+
+				else if (next == 'o') she++;
+
 			}
-
 		}
-
 	}
+
+	if (she > wol) sheeps += she;
+	
+	else wolves += wol;
 
 }
 
 int main() {
 
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
+	cin >> r >> c;
 
-	int t;
+	alis.resize(r);
 
-	cin >> t;
+	visited.assign(r, vector<bool>(c, false));
 
-	while (t--) {
+	for (int i = 0; i < r; i++) {
+		
+		string word;
 
-		cin >> h >> w;
+		cin >> word;
 
-		int ans = 0;
-
-		alis.clear();
-		visited.clear();
-
-		alis.resize(h, vector<char>(w));
-
-		visited.assign(h, vector<bool>(w, false));
-
-		for (int i = 0; i < h; i++) {
-
-			string word;
-
-			cin >> word;
-
-			for (int j = 0; j < w; j++) {
-				alis[i][j] = word[j];
-			}
-		}
-
-		for (int i = 0; i < h; i++) {
-			for (int j = 0; j < w; j++) {
-				if (alis[i][j] == '#' && !visited[i][j]) {
-					bfs(i, j);
-					ans++;
-				}
-			}
-		}
-
-		cout << ans << "\n";
-
+		alis[i] = word;
 	}
+
+	for (int i = 0; i < r; i++) {
+		for (int j = 0; j < c; j++) {
+			if (alis[i][j] == 'v' || alis[i][j] == 'o') {
+				if(!visited[i][j]) bfs(i, j);
+			}
+		}
+	}
+
+	cout << sheeps << " " << wolves;
 
 	return 0;
 }
