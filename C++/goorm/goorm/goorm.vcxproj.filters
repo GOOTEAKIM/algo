@@ -372,5 +372,8 @@
     <ClCompile Include="g_350640.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="g_350618.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
