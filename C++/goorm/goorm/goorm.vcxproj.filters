@@ -387,5 +387,8 @@
     <ClCompile Include="g_349423.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="g_349306.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
