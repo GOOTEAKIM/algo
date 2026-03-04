@@ -13,9 +13,9 @@ int main() {
 
 	vector<int> burger(b),side(c),soda(d);
 
-	for (int i = 0; i < b; i++) cin >> burger[i];
-	for (int i = 0; i < c; i++) cin >> side[i];
-	for (int i = 0; i < d; i++) cin >> soda[i];
+	for (int &x: burger) cin >> x;
+	for (int &x: side) cin >> x;
+	for (int &x: soda) cin >> x;
 
 	sort(burger.rbegin(), burger.rend());
 	sort(side.rbegin(), side.rend());
@@ -29,7 +29,7 @@ int main() {
 
 	int not_sale = for_sale;
 
-	for_sale *= 0.9;
+	for_sale = for_sale * 9 / 10;
 
 	for (int i = minimum; i < b; i++) not_sale += burger[i], for_sale += burger[i];
 	for (int i = minimum; i < c; i++) not_sale += side[i], for_sale += side[i];
