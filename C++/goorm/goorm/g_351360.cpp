@@ -9,9 +9,7 @@ int main() {
 
 	cin >> n;
 
-	vector<int> a(n);
-
-	vector<int> b(n);
+	vector<int> a(n), b(n);
 
 	for (int i = 0; i < n; i++) cin >> a[i];
 
@@ -21,9 +19,7 @@ int main() {
 
 	for (int i = 0; i < n; i++) {
 
-		if (1LL * a[i] * b[i] > maximum) {
-			maximum = a[i] * b[i];
-		}
+		if (1LL * a[i] * b[i] > maximum) maximum = a[i] * b[i];
 
 	}
 
