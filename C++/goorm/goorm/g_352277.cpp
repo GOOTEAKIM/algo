@@ -20,11 +20,7 @@ int main() {
 
 		vector<int> cnt(max_num + 1, 0);
 
-		for (auto next : alis) {
-
-			cnt[next]++;
-
-		}
+		for (auto next : alis) cnt[next]++;
 
 		int st = 0, nd = 0, rd = 0, fourth = 0;
 
