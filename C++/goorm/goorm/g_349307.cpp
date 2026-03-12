@@ -17,23 +17,17 @@ int main() {
 
 			if (i % 2 == 0) {
 
-				if (j % 2 == 1) {
-					alis[i][j] = 'X';
-				}
-				else {
-					alis[i][j] = 'O';
-				}
+				if (j % 2 == 1) alis[i][j] = 'X';
+				
+				else alis[i][j] = 'O';
 
 			}
 			else {
 
-				if (j % 2 == 1) {
-					alis[i][j] = 'O';
-				}
-				else {
-					alis[i][j] = 'X';
-				}
-
+				if (j % 2 == 1) alis[i][j] = 'O';
+				
+				else alis[i][j] = 'X';
+				
 			}
 
 		}
@@ -42,12 +36,8 @@ int main() {
 
 	for (int i = 0; i < n; i++) {
 
-		for (int j = 0; j < n; j++) {
-
-			cout << alis[i][j];
-
-		}
-
+		for (int j = 0; j < n; j++) cout << alis[i][j];
+		
 		if (i != n - 1) cout << "\n";
 
 	}
