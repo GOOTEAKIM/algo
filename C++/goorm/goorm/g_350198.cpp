@@ -8,9 +8,7 @@ int main() {
 
     cin >> n;
 
-    while (n % 5 == 0) {
-        n /= 5;
-    }
+    while (n % 5 == 0) n /= 5;
 
     if (n == 1) cout << 1;
 
