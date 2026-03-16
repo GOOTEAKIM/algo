@@ -28,9 +28,11 @@ int main() {
 
 		}
 		else {
+
 			if (cnt > ans) ans = cnt;
 
 			cnt = 0;
+
 			isOne = false;
 		}
 
