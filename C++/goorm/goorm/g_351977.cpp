@@ -19,6 +19,7 @@ int main() {
 		cin >> num;
 
 		if (len >= num) cout << "Yes";
+
 		else cout << "No";
 
 		if (i != n - 1) cout << "\n";

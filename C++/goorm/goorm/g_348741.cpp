@@ -16,6 +16,7 @@ int main() {
 		char next;
 
 		if (islower(now)) next = toupper(now);
+
 		else next = tolower(now);
 
 		ans += next;

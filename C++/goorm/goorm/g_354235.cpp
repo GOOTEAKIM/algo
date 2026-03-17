@@ -9,7 +9,9 @@ int main() {
 	cin >> g >> b;
 
 	if (g > b) cout << "Goorm";
+
 	else if (g < b) cout << "Baram";
+
 	else cout << "Tie";
 
 	return 0;
