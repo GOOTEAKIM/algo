@@ -25,11 +25,13 @@ int main() {
 			char next = toupper(now[0]);
 
 			ans += next;
+
 			ans += next;
 
 			i++;
 
 		}
+
 		else ans += now[0];
 
 	}

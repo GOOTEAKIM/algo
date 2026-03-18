@@ -13,11 +13,7 @@ int main() {
 
     vector<pair<int, int>> alis(n);
 
-    for (int i = 0; i < n; i++) {
-
-        cin >> alis[i].first >> alis[i].second;
-
-    }
+    for (int i = 0; i < n; i++) cin >> alis[i].first >> alis[i].second;
 
     sort(alis.begin(), alis.end());
 
@@ -26,14 +22,16 @@ int main() {
     for (auto now : alis) {
 
         int start = now.first;
+
         int finish = now.second;
 
-        if (!pq.empty() && pq.top() <= start) {
-            pq.pop();
-        }
+        if (!pq.empty() && pq.top() <= start) pq.pop();
 
         pq.push(finish);
+
     }
 
     cout << pq.size();
+
+    return 0;
 }

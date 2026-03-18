@@ -8,11 +8,12 @@ int main() {
 
 	cin >> a >> b >> c >> d;
 
-	int ab = a * b;
-	int cd = c * d;
+	int ab = a * b, cd = c * d;
 
 	if (ab > cd) cout << "G";
+
 	else if (ab < cd) cout << "B";
+
 	else cout << "D";
 
 	return 0;
