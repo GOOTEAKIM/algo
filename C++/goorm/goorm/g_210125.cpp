@@ -54,63 +54,73 @@ int main() {
 			if (n_x >= n || alis[n_y][n_x] == 3) continue;
 
 			else {
+
 				x++;
 				cnt++;
+
 			}
 
 		}
 		else if (spell == 'L') {
 
 			int n_y = y;
+
 			int n_x = x - 1;
 
 			if (n_x < 0 || alis[n_y][n_x] == 3) continue;
 
 			else {
+
 				x--;
 				cnt++;
+
 			}
 
 		}
 		else if (spell == 'D') {
 
 			int n_y = y + 1;
+
 			int n_x = x;
 
 			if (n_y >= n || alis[n_y][n_x] == 3) continue;
 
 			else {
+
 				y++;
 				cnt++;
+
 			}
 
 		}
 		else if (spell == 'U') {
 
 			int n_y = y - 1;
+
 			int n_x = x;
 
 			if (n_y < 0 || alis[n_y][n_x] == 3) continue;
 
 			else {
+
 				y--;
 				cnt++;
+
 			}
 
 		}
 
 		if (alis[y][x] == 2) {
+
 			cout << "SUCCESS " << cnt;
 			return 0;
+
 		}
 	}
 
-	if (alis[y][x] == 2) {
-		cout << "SUCCESS " << cnt;
-	}
-	else {
-		cout << "FAIL";
-	}
+	if (alis[y][x] == 2) cout << "SUCCESS " << cnt;
 
+	else cout << "FAIL";
+	
 	return 0;
 }

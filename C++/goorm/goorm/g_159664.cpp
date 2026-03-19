@@ -30,9 +30,7 @@ int main() {
 
 		int ans = 0;
 
-		for (auto next : alis) {
-			if (next >= avg) ans++;
-		}
+		for (auto next : alis) if (next >= avg) ans++;
 
 		cout << ans << "/" << n;
 

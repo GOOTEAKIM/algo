@@ -13,6 +13,7 @@ int main() {
 		for (int j = 1; j <= n; j++) {
 
 			if (j % i == 0) cout << i;
+
 			else cout << 0;
 
 		}
