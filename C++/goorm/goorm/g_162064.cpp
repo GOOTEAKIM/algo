@@ -25,9 +25,7 @@ int main() {
 
 			int now = num[k] - '0';
 
-			if (now != 0) {
-				ans *= now;
-			}
+			if (now != 0) ans *= now;
 
 		}
 

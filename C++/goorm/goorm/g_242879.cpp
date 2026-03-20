@@ -19,12 +19,9 @@ int main() {
 		ans += (c * v);
 	}
 
-	if (m >= ans) {
-		cout << m - ans;
-	}
-	else {
-		cout << "No";
-	}
+	if (m >= ans) cout << m - ans;
+	
+	else cout << "No";
 
 	return 0;
 }

@@ -12,9 +12,7 @@ int main() {
 
 	vector<long long> arr(n);
 
-	for (int i = 0; i < n; i++) {
-		cin >> arr[i];
-	}
+	for (int i = 0; i < n; i++) cin >> arr[i];
 
 	long long max_sum = arr[0];
 	long long current_sum = arr[0];

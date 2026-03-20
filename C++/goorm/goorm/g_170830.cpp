@@ -10,27 +10,19 @@ int main() {
 
 	cout << a;
 
-	if (a < b) {
-		cout << "<";
-	}
-	else if (a > b) {
-		cout << ">";
-	}
-	else {
-		cout << "==";
-	}
+	if (a < b) cout << "<";
+	
+	else if (a > b) cout << ">";
+	
+	else cout << "==";
 
 	cout << b;
 
-	if (b < c) {
-		cout << "<" << c;
-	}
-	else if (b > c) {
-		cout << ">" << c;
-	}
-	else {
-		cout << "==" << c;
-	}
+	if (b < c) cout << "<" << c;
+	
+	else if (b > c) cout << ">" << c;
+	
+	else cout << "==" << c;
 
 	return 0;
 }

@@ -11,8 +11,10 @@ int main() {
 	for (int i = l; i <= r; i++) {
 
 		if (i % d == 0) {
+
 			cout << "Y";
 			return 0;
+
 		}
 
 	}

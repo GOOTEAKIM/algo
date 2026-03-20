@@ -40,6 +40,7 @@ void bfs(int y, int x) {
 			int nx = now_x + dx[i];
 
 			if (ny >= 0 && ny < m && nx >= 0 && nx < n) {
+
 				if (alis[ny][nx] == '#' && !visited[ny][nx]) {
 
 					q.push({ ny,nx });
@@ -74,13 +75,15 @@ int main() {
 	}
 
 	for (int i = 0; i < m; i++) {
+
 		for (int j = 0; j < n; j++) {
+
 			char now = alis[i][j];
 
-			if (now == '#' && !visited[i][j]) {
-				bfs(i, j);
-			}
+			if (now == '#' && !visited[i][j]) bfs(i, j);
+			
 		}
+
 	}
 
 	cout << cnt << "\n" << cost;

@@ -14,7 +14,7 @@ int main() {
 
 		cin >> c >> e;
 
-		if (c > e && w < 80)	w++;
+		if (c > e && w < 80) w++;
 
 		else if (c < e && w > 10) w--;
 

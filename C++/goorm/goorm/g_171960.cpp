@@ -23,11 +23,7 @@ int main() {
 
 	int len = alis.size();
 
-	for (auto next : alis) {
-
-		cout << next << " ";
-
-	}
+	for (auto next : alis) cout << next << " ";
 
 	return 0;
 }
