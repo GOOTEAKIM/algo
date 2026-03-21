@@ -15,6 +15,7 @@ int main() {
 	for (int i = 0; i < m; i++) {
 
 		string order;
+
 		int money;
 
 		cin >> order >> money;
@@ -42,16 +43,10 @@ int main() {
 		}
 		else if (order == "reservation") {
 
-			if (n < money || !bills.empty()) {
+			if (n < money || !bills.empty()) bills.push(money);
 
-				bills.push(money);
+			else n -= money;
 
-			}
-			else {
-
-				n -= money;
-
-			}
 		}
 	}
 

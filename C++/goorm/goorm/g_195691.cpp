@@ -23,17 +23,12 @@ int main() {
 
 			cin >> now;
 
-			if (now == '@') {
-				alis[i][j] = -2;
-			}
-			else if (now == '#') {
-				alis[i][j] = -1;
-			}
+			if (now == '@') alis[i][j] = -2;
+			
+			else if (now == '#') alis[i][j] = -1;
 
-
-			else {
-				alis[i][j] = now - '0';
-			}
+			else alis[i][j] = now - '0';
+			
 		}
 	}
 
@@ -56,12 +51,9 @@ int main() {
 
 			if (nx >= 0 && nx < n && ny >= 0 && ny < n) {
 
-				if (alis[ny][nx] == -2) {
-					origin[ny][nx] += 2;
-				}
-				else if (alis[ny][nx] == 0) {
-					origin[ny][nx] += 1;
-				}
+				if (alis[ny][nx] == -2) origin[ny][nx] += 2;
+				
+				else if (alis[ny][nx] == 0) origin[ny][nx] += 1;
 
 			}
 
@@ -77,9 +69,8 @@ int main() {
 
 			int next = origin[i][j];
 
-			if (next > ans) {
-				ans = next;
-			}
+			if (next > ans) ans = next;
+			
 		}
 	}
 

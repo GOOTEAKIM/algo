@@ -7,11 +7,7 @@ int toInt(string s) {
 
 	int num = 0;
 
-	for (auto spell : s) {
-
-		num = num * 10 + spell - '0';
-
-	}
+	for (auto spell : s) num = num * 10 + spell - '0';
 
 	return num;
 }

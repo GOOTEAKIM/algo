@@ -24,6 +24,7 @@ int main() {
 		string target = "";
 
 		if (now == "12") target = "21";
+
 		else if (now == "21") target = "12";
 
 		if (!target.empty() && rest.find(target) != string::npos) {

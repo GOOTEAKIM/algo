@@ -25,9 +25,7 @@ bool cmp(const pair<string, int>& a, const pair<string, int>& b) { // 2Áø¼ö Áß 1
 	int cntA = count(a.first.begin(), a.first.end(), '1');
 	int cntB = count(b.first.begin(), b.first.end(), '1');
 
-	if (cntA != cntB) {
-		return cntA > cntB;
-	}
+	if (cntA != cntB) return cntA > cntB;
 
 	return a.second > b.second;
 

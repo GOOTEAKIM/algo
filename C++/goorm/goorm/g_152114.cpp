@@ -31,9 +31,7 @@ int main() {
 			}
 			else if (w == durability[v]) {
 
-				if (i > idx[v]) {
-					idx[v] = i;
-				}
+				if (i > idx[v]) idx[v] = i;
 
 			}
 		}
@@ -42,9 +40,7 @@ int main() {
 
 	int ans = 0;
 
-	for (auto& p : idx) {
-		ans += p.second;
-	}
+	for (auto& p : idx) ans += p.second;
 
 	cout << ans;
 

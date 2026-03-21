@@ -24,21 +24,17 @@ int main() {
 
 			if (now == '(') {
 
-				if (spell == '(') {
+				if (spell == '(') alis.push_back(spell);
 
-					alis.push_back(spell);
-
-				}
-				else {
-
-					alis.pop_back();
-				}
+				else alis.pop_back();
+				
 			}
 		}
 
 	}
 
 	if (alis.empty()) cout << "YES";
+
 	else cout << "NO";
 
 	return 0;
