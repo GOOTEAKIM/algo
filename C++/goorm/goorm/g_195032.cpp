@@ -11,32 +11,20 @@ int main() {
 
 	vector<char> alis(n);
 
-	for (int i = 0; i < n; i++) {
-		cin >> alis[i];
-	}
+	for (int i = 0; i < n; i++) cin >> alis[i];
 
 	int dalgoo = 0, fonix = 0;
 
 	for (char spell : alis) {
 
-		if (spell == 'D') {
+		if (spell == 'D') dalgoo++;
 
-			dalgoo++;
-
-		}
-		else {
-
-			fonix++;
-
-		}
+		else fonix++;
 
 		int diff = dalgoo - fonix;
 
-		if (diff == 2 || diff == -2) {
+		if (diff == 2 || diff == -2) break;
 
-			break;
-
-		}
 	}
 
 	cout << dalgoo << ":" << fonix;

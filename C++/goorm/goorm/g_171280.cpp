@@ -37,9 +37,7 @@ int main() {
 		}
 		else if ((total[i] / cnt[i]) == avg) {
 
-			if (i < idx) {
-				idx = i;
-			}
+			if (i < idx) idx = i;
 
 		}
 	}

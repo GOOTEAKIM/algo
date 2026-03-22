@@ -15,24 +15,17 @@ int main() {
 
 		cin >> num;
 
-		if (num % 2 == 0) {
-			worker++;
-		}
-		else {
-			goorm++;
-		}
+		if (num % 2 == 0) worker++;
+		
+		else goorm++;
+		
 	}
 
-	if (goorm > worker) {
-		cout << goorm;
-	}
-	else if (goorm < worker) {
-		cout << worker;
-	}
-	else {
-		cout << "tie";
-	}
-
+	if (goorm > worker) cout << goorm;
+	
+	else if (goorm < worker) cout << worker;
+	
+	else cout << "tie";
 
 	return 0;
 }

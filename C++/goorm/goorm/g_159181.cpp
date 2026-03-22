@@ -21,11 +21,8 @@ int main() {
 
 		cin >> name;
 
-		if (name == s) {
+		if (name == s) ans++;
 
-			ans++;
-
-		}
 		else {
 
 			if (name.length() < s.length()) continue;

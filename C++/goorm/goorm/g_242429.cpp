@@ -14,15 +14,11 @@ int main() {
 
 		cin >> a >> b;
 
-		if (a < b) {
-			cout << "Sunflower";
-		}
-		else if (a == b) {
-			cout << "Tulip";
-		}
-		else {
-			cout << "Rose";
-		}
+		if (a < b) cout << "Sunflower";
+		
+		else if (a == b) cout << "Tulip";
+		
+		else cout << "Rose";
 
 		if (i == n - 1) continue;
 
