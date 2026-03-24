@@ -84,11 +84,10 @@ int main() {
 	cin >> n >> k >> q;
 
 	alis.resize(n);
+
 	visited.assign(n, vector<bool>(n, false));
 
-	for (int i = 0; i < n; i++) {
-		cin >> alis[i];
-	}
+	for (int i = 0; i < n; i++) cin >> alis[i];
 
 	for (int i = 0; i < q; i++) {
 

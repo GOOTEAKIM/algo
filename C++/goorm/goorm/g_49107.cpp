@@ -21,9 +21,9 @@ int main() {
 		cin >> s >> d;
 
 		if (s < t) {
-			while (s < t) {
-				s += d;
-			}
+			
+			while (s < t) s += d;
+			
 		}
 		alis.push_back(s);
 	}
@@ -40,9 +40,7 @@ int main() {
 		}
 		else if (alis[i] == diff) {
 
-			if (i < idx) {
-				idx = i;
-			}
+			if (i < idx) idx = i;
 
 		}
 	}

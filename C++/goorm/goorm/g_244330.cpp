@@ -19,9 +19,7 @@ int main() {
 
 		int area = garo * sero;
 
-		if (area > ans) {
-			ans = area;
-		}
+		if (area > ans) ans = area;
 
 	}
 

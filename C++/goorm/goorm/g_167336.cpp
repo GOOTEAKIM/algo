@@ -8,9 +8,7 @@ int main() {
 
 	vector<int> alis(4);
 
-	for (int i = 0; i < 4; i++) {
-		cin >> alis[i];
-	}
+	for (int i = 0; i < 4; i++) cin >> alis[i];
 
 	sort(alis.begin(), alis.end());
 
