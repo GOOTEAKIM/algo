@@ -18,14 +18,13 @@ int main() {
 	alis.resize(n, vector<int>(n));
 
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++) {
-			cin >> alis[i][j];
-		}
+		for (int j = 0; j < n; j++) cin >> alis[i][j];
 	}
 
 	int ans = 0;
 
 	for (int i = 0; i < n; i++) {
+
 		for (int j = 0; j < n; j++) {
 
 			int now = alis[i][j];

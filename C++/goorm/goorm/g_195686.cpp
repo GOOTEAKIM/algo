@@ -35,19 +35,16 @@ int main() {
 
 	}
 
-	bool bigger = true;
-	bool smaller = true;
+	bool bigger = true, smaller = true;
 
-	long long b = alis[mid];
-	long long s = alis[mid];
+	long long b = alis[mid], s = alis[mid];
 
 	for (int i = mid + 1; i < n; i++) {
 
 		long long now = alis[i];
 
-		if (now <= b) {
-			b = now;
-		}
+		if (now <= b) b = now;
+		
 		else {
 			bigger = false;
 
@@ -61,9 +58,8 @@ int main() {
 
 		long long now = alis[i];
 
-		if (now <= s) {
-			s = now;
-		}
+		if (now <= s) s = now;
+		
 		else {
 			smaller = false;
 

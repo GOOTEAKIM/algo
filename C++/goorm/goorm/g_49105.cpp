@@ -35,18 +35,13 @@ int main() {
 
 		cin >> num;
 
-		if (alis.find(num) != alis.end()) {
-			cout << 1;
-		}
-		else {
-			cout << 0;
-		}
+		if (alis.find(num) != alis.end()) cout << 1;
+		
+		else cout << 0;
 
-		if (i != m - 1) {
-			cout << "\n";
-		}
+		if (i != m - 1) cout << "\n";
+		
 	}
-
 
 	return 0;
 }

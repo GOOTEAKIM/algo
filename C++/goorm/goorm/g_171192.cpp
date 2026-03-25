@@ -18,11 +18,8 @@ int main() {
 
 		cin >> order >> money;
 
-		if (order == "in") {
+		if (order == "in") wallet += money;
 
-			wallet += money;
-
-		}
 		else if (order == "out") {
 
 			wallet -= money;
@@ -37,16 +34,9 @@ int main() {
 
 	}
 
-	if (wallet >= 0) {
+	if (wallet >= 0) cout << "success";
 
-		cout << "success";
-
-	}
-	else {
-
-		cout << "fail";
-
-	}
+	else cout << "fail";
 
 	return 0;
 }

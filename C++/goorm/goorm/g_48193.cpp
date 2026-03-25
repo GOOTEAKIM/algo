@@ -11,13 +11,9 @@ int main() {
 
 	vector<int> alis(n);
 
-	for (int i = 0; i < n; i++) {
-		cin >> alis[i];
-	}
+	for (int i = 0; i < n; i++) cin >> alis[i];
 
-	int ans = 0;
-
-	int height = 0;
+	int ans = 0, height = 0;
 
 	for (int i = n - 1; i >= 0; i--) {
 

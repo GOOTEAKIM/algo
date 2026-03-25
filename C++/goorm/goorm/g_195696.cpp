@@ -11,9 +11,7 @@ vector<vector<int>> alis;
 
 vector<bool> visited;
 
-int cnt = 1;
-
-int ans = 0;
+int cnt = 1, ans = 0;
 
 void bfs(int start) {
 
@@ -68,12 +66,16 @@ int main() {
 	}
 
 	if (alis[k].empty()) {
+
 		cout << 1 << " " << k;
 		return 0;
+		
 	}
 
 	for (int i = 1; i <= n; i++) {
+
 		sort(alis[i].begin(), alis[i].end());
+
 	}
 
 	bfs(k);
