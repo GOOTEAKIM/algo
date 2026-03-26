@@ -17,16 +17,9 @@ int main() {
 
 			int rest;
 
-			if (a % 2 == 0) {
+			if (a % 2 == 0) rest = a / 2;
 
-				rest = a / 2;
-
-			}
-			else {
-
-				rest = (a + 1) / 2;
-
-			}
+			else rest = (a + 1) / 2;
 
 			b += rest;
 			a -= rest;
@@ -35,16 +28,9 @@ int main() {
 
 			int rest;
 
-			if (b % 2 == 0) {
+			if (b % 2 == 0) rest = b / 2;
 
-				rest = b / 2;
-
-			}
-			else {
-
-				rest = (b + 1) / 2;
-
-			}
+			else rest = (b + 1) / 2;
 
 			b -= rest;
 			a += rest;

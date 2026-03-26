@@ -16,18 +16,13 @@ int main() {
 
 	for (char spell : sentence) {
 
-		if (spell == '1') {
-			one++;
-		}
-		else if (spell == 'I') {
-			big_i++;
-		}
-		else if (spell == 'l') {
-			small_l++;
-		}
-		else if (spell == '|') {
-			backslash++;
-		}
+		if (spell == '1') one++;
+		
+		else if (spell == 'I') big_i++;
+		
+		else if (spell == 'l') small_l++;
+		
+		else if (spell == '|') backslash++;
 
 	}
 

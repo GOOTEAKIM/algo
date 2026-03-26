@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+
     int n, a, b;
     cin >> n >> a >> b;
 
@@ -33,5 +34,6 @@ int main() {
     }
 
     cout << min_count;
+
     return 0;
 }

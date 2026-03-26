@@ -33,9 +33,7 @@ int main() {
 
 				string now = next.substr(0, len);
 
-				if (now == name) {
-					cnt++;
-				}
+				if (now == name) cnt++;
 
 			}
 
