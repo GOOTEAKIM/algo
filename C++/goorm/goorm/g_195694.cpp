@@ -63,9 +63,9 @@ int main() {
 	visited.assign(n, vector<bool>(n, false));
 
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++) {
-			cin >> alis[i][j];
-		}
+		
+		for (int j = 0; j < n; j++) cin >> alis[i][j];
+		
 	}
 
 	for (int i = 0; i < n; i++) {
@@ -73,7 +73,9 @@ int main() {
 		for (int j = 0; j < n; j++) {
 
 			if (!visited[i][j] && alis[i][j] == 1) {
+				
 				bfs(i, j);
+			
 			}
 
 		}

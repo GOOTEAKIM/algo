@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <algorithm>
 
 using namespace std;
 
@@ -31,8 +30,11 @@ void bfs(int x) {
 			int next = alis[now][i];
 
 			if (!visited[next]) {
+
 				for (int j = 0; j < alis[next].size(); j++) {
+
 					if (alis[next][j] == now) {
+
 						q.push(next);
 
 						visited[next] = true;
@@ -65,9 +67,9 @@ int main() {
 	}
 
 	for (int i = 1; i <= n; i++) {
-		if (!visited[i]) {
-			bfs(i);
-		}
+		
+		if (!visited[i]) bfs(i);
+		
 	}
 
 	cout << ans;

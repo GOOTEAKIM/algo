@@ -55,9 +55,7 @@ void bfs(int y, int x) {
 
 	}
 
-	if (group_size >= k) {
-		answers[value]++;
-	}
+	if (group_size >= k) answers[value]++;
 
 }
 
@@ -71,6 +69,7 @@ int main() {
 	visited.assign(n, vector<bool>(n, false));
 
 	for (int i = 0; i < n; i++) {
+
 		for (int j = 0; j < n; j++) {
 
 			cin >> alis[i][j];
@@ -81,22 +80,25 @@ int main() {
 	answers.assign(31, 0);
 
 	for (int i = 0; i < n; i++) {
+
 		for (int j = 0; j < n; j++) {
 
-			if (!visited[i][j]) {
-				bfs(i, j);
-			}
+			if (!visited[i][j]) bfs(i, j);
 
 		}
 	}
 
 	int idx = -1;
+
 	int max_count = -1;
 
 	for (int i = 0; i < answers.size(); i++) {
+
 		if (answers[i] >= max_count) {
+
 			max_count = answers[i];
 			idx = i;
+
 		}
 	}
 

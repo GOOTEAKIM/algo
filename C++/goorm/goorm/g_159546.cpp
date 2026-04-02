@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <algorithm>
 
 using namespace std;
 
@@ -60,23 +59,15 @@ int main() {
 
 	bfs(n);
 
-	if (visited[1] == -1) {
-		cout << "NO";
-	}
+	if (visited[1] == -1) cout << "NO";
+	
 	else {
 
-		if (visited[1] <= k) {
-			cout << "YES";
-		}
-		else {
-			cout << "NO";
-		}
+		if (visited[1] <= k) cout << "YES";
+		
+		else cout << "NO";
 
 	}
-
-	// for(int nex : visited) {
-	// 	cout << nex << " ";
-	// }
 
 	return 0;
 }

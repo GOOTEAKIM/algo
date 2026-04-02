@@ -63,6 +63,7 @@ int main() {
     }
 
     int ans = bfs(1);
+
     cout << ans;
 
     return 0;
