@@ -29,14 +29,17 @@ int main() {
         for (auto next : alis) cnt += next / mid;
         
         if (cnt >= k) {
+
             ans = mid;
             start = mid + 1;
+
         }
-        else {
-            finish = mid - 1;
-        }
+
+        else finish = mid - 1;
+        
     }
 
     cout << ans;
+
     return 0;
 }

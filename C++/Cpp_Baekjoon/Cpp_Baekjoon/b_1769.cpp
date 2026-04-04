@@ -15,9 +15,7 @@ int main() {
 
         int sum = 0;
 
-        for (auto next : n) {
-            sum += next - '0';
-        }
+        for (auto next : n) sum += next - '0';
 
         n = to_string(sum);
         

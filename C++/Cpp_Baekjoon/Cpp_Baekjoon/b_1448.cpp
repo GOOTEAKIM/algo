@@ -21,7 +21,9 @@ int main() {
 	for (int i = 0; i < n - 2; i++) {
 
 		int st = alis[i];
+
 		int nd = alis[i + 1];
+
 		int rd = alis[i + 2];
 
 		if (nd + rd > st) {

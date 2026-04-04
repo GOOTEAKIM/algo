@@ -9,9 +9,7 @@ int main() {
 
 	cin >> n;
 
-	long long ans = 0;
-	long long start = 1;
-	long long digits = 1;
+	long long ans = 0, start = 1, digits = 1;
 
 	while (start * 10 <= n) {
 

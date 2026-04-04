@@ -43,10 +43,9 @@ int main() {
 			start = mid + 1;
 
 		}
-		else {
-			finish = mid - 1;
-		}
 
+		else finish = mid - 1;
+		
 	}
 
 	cout << total - (ans * c);

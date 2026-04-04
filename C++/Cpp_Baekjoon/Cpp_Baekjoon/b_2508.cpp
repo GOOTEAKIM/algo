@@ -18,9 +18,9 @@ int main() {
 		vector<vector<char>> alis(r, vector<char>(c));
 
 		for (int i = 0; i < r; i++) {
-			for (int j = 0; j < c; j++) {
-				cin >> alis[i][j];
-			}
+
+			for (int j = 0; j < c; j++) cin >> alis[i][j];
+			
 		}
 
 		int ans = 0;

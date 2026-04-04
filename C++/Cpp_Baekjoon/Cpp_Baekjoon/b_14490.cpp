@@ -19,9 +19,7 @@ int main() {
 
 	m = word.substr(idx+1);
 
-	long long N = stoll(n);
-
-	long long M = stoll(m);
+	long long N = stoll(n), M = stoll(m);
 
 	int cnt = gcd(N, M);
 
