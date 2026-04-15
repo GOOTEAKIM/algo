@@ -8,9 +8,7 @@ int main() {
 
 	cin >> a >> b >> c >> d;
 
-	int C = d;
-	int B = d;
-	int A = d;
+	int C = d, B = d, A = d;
 
 	if ((C %= c) == 0 || (B %= b) == 0 || (A %= a) == 0) {
 

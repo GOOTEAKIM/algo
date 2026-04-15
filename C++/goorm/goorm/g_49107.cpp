@@ -29,6 +29,7 @@ int main() {
 	}
 
 	int idx = t + 1;
+
 	int diff = 10000000;
 
 	for (int i = 1; i < alis.size(); i++) {

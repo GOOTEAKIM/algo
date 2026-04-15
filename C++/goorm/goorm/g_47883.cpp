@@ -16,11 +16,7 @@ int main() {
 
 	string word;
 
-	while (ss >> word) {
-
-		cnt++;
-
-	}
+	while (ss >> word) cnt++;
 
 	cout << cnt;
 

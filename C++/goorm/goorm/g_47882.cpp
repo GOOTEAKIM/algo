@@ -9,10 +9,7 @@ int main() {
 
 	getline(cin, sentence);
 
-	int one = 0;
-	int big_i = 0;
-	int small_l = 0;
-	int backslash = 0;
+	int one = 0, big_i = 0, small_l = 0, backslash = 0;
 
 	for (char spell : sentence) {
 
