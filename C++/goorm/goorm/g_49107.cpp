@@ -28,17 +28,18 @@ int main() {
 		alis.push_back(s);
 	}
 
-	int idx = t + 1;
-
-	int diff = 10000000;
+	int idx = t + 1, diff = 10000000;
 
 	for (int i = 1; i < alis.size(); i++) {
 
 		if (alis[i] < diff) {
+
 			diff = alis[i];
 
 			idx = i;
+
 		}
+
 		else if (alis[i] == diff) {
 
 			if (i < idx) idx = i;

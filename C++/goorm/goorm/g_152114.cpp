@@ -24,11 +24,16 @@ int main() {
 			durability[v] = w;
 
 		}
+
 		else {
+
 			if (w > durability[v]) {
+
 				durability[v] = w;
 				idx[v] = i;
+
 			}
+
 			else if (w == durability[v]) {
 
 				if (i > idx[v]) idx[v] = i;
