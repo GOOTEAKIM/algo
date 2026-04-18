@@ -23,7 +23,9 @@ int main() {
 
 			b += rest;
 			a -= rest;
+
 		}
+
 		else {
 
 			int rest;
@@ -34,6 +36,7 @@ int main() {
 
 			b -= rest;
 			a += rest;
+
 		}
 
 	}
