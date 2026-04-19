@@ -19,6 +19,7 @@ int main() {
 	for (int i = 0; i < len - 2; i++) {
 
 		string now = word.substr(i, 2);
+
 		string rest = word.substr(i + 2);
 
 		string target = "";

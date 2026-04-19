@@ -20,13 +20,16 @@ int main() {
 	for (int i = 0; i < word.length() - 1; i++) {
 
 		if (word[i] > word[i + 1]) {
+
 			idx = i;
 			break;
+
 		}
 
 	}
 
 	ans += word.substr(0, idx);
+
 	ans += word.substr(idx + 1, len - idx - 1);
 
 	cout << ans;

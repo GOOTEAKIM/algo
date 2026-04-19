@@ -26,7 +26,6 @@ unordered_map<char, char> dict = {
 
 int main() {
 
-
 	int n;
 
 	cin >> n;

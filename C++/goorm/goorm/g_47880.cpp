@@ -25,8 +25,10 @@ int main() {
 			reverse(now.begin(), now.end());
 
 			if (now == next) {
+
 				ans = i;
 				break;
+
 			}
 		}
 
