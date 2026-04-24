@@ -20,6 +20,7 @@ int main() {
 		int x = temp / len;
 
 		if (x >= 0) {
+
 			for (int i = 0; i < len; i++) {
 
 				cout << x + i;
@@ -27,6 +28,7 @@ int main() {
 				if (i < len - 1) cout << " ";
 	
 			}
+
 			return 0;
 		}
 

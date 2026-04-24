@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// bfs
+
 int m,n;
 
 vector<vector<int>> alis;
@@ -32,10 +34,12 @@ void bfs(int x, int y) {
 		q.pop();
 
 		for (int i = 0; i < 4; i++) {
+
 			int nx = now_x + dx[i];
 			int ny = now_y + dy[i];
 
 			if (nx >= 0 && nx < n && ny >= 0 && ny < m) {
+
 				if (visited[nx][ny] == false && alis[nx][ny] == 1) {
 					
 					q.push({ nx,ny });
@@ -48,7 +52,6 @@ void bfs(int x, int y) {
  
 	}
 }
-
 
 int main() {
 
@@ -67,22 +70,30 @@ int main() {
 		visited.assign(n, vector<bool>(m, false));
 
 		for (int i = 0; i < k; i++) {
+
 			int from, to;
 
 			cin >> from >> to;
 
 			alis[to][from] = 1;
+
 		}
 
 		int cnt = 0;
 
 		for (int i = 0; i < n; i++) {
+
 			for (int j = 0; j < m; j++) {
+
 				if (visited[i][j] == false && alis[i][j] == 1) {
+
 					bfs(i, j);
 					cnt++;
+
 				}
+
 			}
+
 		}
 
 		cout << cnt << "\n";

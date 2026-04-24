@@ -12,15 +12,11 @@ int main() {
 
 	deque<int> arr;
 
-	for (int i = 1; i <= n; i++) {
-		arr.push_back(i);
-	}
+	for (int i = 1; i <= n; i++) arr.push_back(i);
 
 	vector<int> order(m);
 
-	for (int i = 0; i < m; i++) {
-		cin >> order[i];
-	}
+	for (int i = 0; i < m; i++) cin >> order[i];
 
 	int ans = 0;
 
@@ -31,22 +27,29 @@ int main() {
 
 		// idx의 위치 확인
 		for (int j = 0; j < arr.size(); j++) {
+
 			if (arr[j] == target) {
+
 				idx = j;
 				break;
+
 			}
+
 		}
 
 		if (idx <= arr.size() / 2) {
 
 			while (idx--) {
+
 				int num = arr.front();
 				arr.pop_front();
 				arr.push_back(num);
 				ans++;
+
 			}
 
 		}
+
 		else
 		{
 			int right = arr.size() - idx;
@@ -57,6 +60,7 @@ int main() {
 				arr.pop_back();
 				arr.push_front(num);
 				ans++;
+
 			}
 		}
 

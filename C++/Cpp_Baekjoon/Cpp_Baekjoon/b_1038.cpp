@@ -33,13 +33,9 @@ void fun(int target) {
 
 	}
 
-	if (target >= arr.size()) {
-		cout << -1;
-	}
-	else
-	{
-		cout << arr[target];
-	}
+	if (target >= arr.size()) cout << -1;
+	
+	else cout << arr[target];
 
 }
 
