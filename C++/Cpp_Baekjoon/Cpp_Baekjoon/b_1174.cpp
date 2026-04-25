@@ -15,8 +15,10 @@ void fun(int target) {
 	arr.push_back(0);
 
 	for (int i = 0; i <= 9; i++) {
+
 		q.push(i);
 		arr.push_back(i);
+
 	}
 
 	while (!q.empty()) {
@@ -28,20 +30,18 @@ void fun(int target) {
 		q.pop();
 
 		for (int i = 0; i < last; i++) {
+
 			long long newnum = num * 10 + i;
 			q.push(newnum);
 			arr.push_back(newnum);
+
 		}
 
 	}
 
-	if (target >= arr.size()) {
-		cout << -1;
-	}
-	else
-	{
-		cout << arr[target];
-	}
+	if (target >= arr.size()) cout << -1;
+	
+	else cout << arr[target];
 
 }
 

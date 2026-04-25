@@ -51,9 +51,7 @@ int main() {
 	visited.assign(n, vector<bool>(m, false));
 
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < m; j++) {
-			cin >> alis[i][j];
-		}
+		for (int j = 0; j < m; j++) cin >> alis[i][j];
 	}
 
 	for (int i = 0; i < n; i++) {
@@ -67,7 +65,6 @@ int main() {
 			if (isPeak) cnt++; // 탐색해도 봉우리면 카운트 증가
 		}
 	}
-
 
 	cout << cnt;
 

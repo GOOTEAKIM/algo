@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// bfs
+
 int n, m;
 
 vector<vector<int>> alis;
@@ -27,9 +29,7 @@ int bfs(int start, int finish) {
 
 		int now = q.front();
 
-		if (now == finish) {
-			return dist[finish];
-		}
+		if (now == finish) return dist[finish];
 
 		q.pop();
 

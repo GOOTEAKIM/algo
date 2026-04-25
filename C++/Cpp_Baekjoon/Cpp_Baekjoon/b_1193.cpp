@@ -17,15 +17,12 @@ int main() {
 
 		x -= line;
 		line++;
+
 	}
 
-	if (line % 2 == 1) {
-		cout << line + 1 - x << '/' << x;
-	}
-	else
-	{
-		cout << x << '/' << line + 1 - x;
-	}
+	if (line % 2 == 1) cout << line + 1 - x << '/' << x;
+	
+	else cout << x << '/' << line + 1 - x;
 
 	return 0;
 }

@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// bfs, dfs
+
 int n, m;
 
 vector<vector<int>> alis;

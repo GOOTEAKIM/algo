@@ -45,9 +45,7 @@ int main() {
 	int white = 0, blue = 0;
 
 	for (int i = 0; i < m; i++) {
-		for (int j = 0; j < n; j++) {
-			cin >> alis[i][j];
-		}
+		for (int j = 0; j < n; j++) cin >> alis[i][j];
 	}
 
 	for (int i = 0; i < m; i++) {
@@ -57,12 +55,10 @@ int main() {
 
 				dfs(i, j, alis[i][j]);
 
-				if (alis[i][j] == 'B') {
-					blue += num * num;
-				}
-				else if (alis[i][j] == 'W') {
-					white += num * num;
-				}
+				if (alis[i][j] == 'B') blue += num * num;
+				
+				else if (alis[i][j] == 'W') white += num * num;
+				
 			}
 		}
 	}
