@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// bfs
+
 int n;
 
 int a, b;
@@ -34,12 +36,14 @@ void bfs(int start, int finish) {
 
 			ans = jumps;
 			return;
+
 		}
 
 		int step = alis[now];
 
 		// 전진
 		for (int k = 1; now + k * step <= n; k++) {
+
 			int next = now + k * step;
 
 			if (!visited[next]) {
@@ -52,15 +56,16 @@ void bfs(int start, int finish) {
 
 		// 후진
 		for (int k = 1; now - k * step >= 1; k++) {
+
 			int next = now - k * step;
 			
 			if (!visited[next]) {
+
 				visited[next] = true;
 				q.push({ next, jumps + 1 });
+
 			}
 		}
-
-
 	}
 
 }
@@ -72,15 +77,14 @@ int main() {
 	alis.assign(n + 1, 0);
 	visited.assign(n + 1, false);
 
-	for (int i = 1; i <= n; i++) {
-		cin >> alis[i];
-	}
+	for (int i = 1; i <= n; i++) cin >> alis[i];
 
 	cin >> a >> b;
 
 	bfs(a, b);
 
 	if (visited[b]) cout << ans;
+
 	else cout << -1;
 
 	return 0;
