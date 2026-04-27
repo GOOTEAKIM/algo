@@ -12,9 +12,7 @@ int main() {
 
 	vector<int> alis(n);
 	
-	for (int i = 0; i < n; i++) {
-		cin >> alis[i];
-	}
+	for (int i = 0; i < n; i++) cin >> alis[i];
 
 	sort(alis.begin(), alis.end());
 

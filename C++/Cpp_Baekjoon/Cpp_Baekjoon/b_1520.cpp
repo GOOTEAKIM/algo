@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// dp
+
 int n, m;
 
 vector<vector<int>> alis;
@@ -18,20 +20,16 @@ int dx[] = { 1,-1,0,0 };
 
 int dfs(int y, int x) {
 
-	if (y == n - 1 && x == m - 1) {
-		
-		return 1;
-	}
+	if (y == n - 1 && x == m - 1) return 1;
 
-	if (dp[y][x] != -1) {
-		return dp[y][x];
-	}
+	if (dp[y][x] != -1) return dp[y][x];
 
 	dp[y][x] = 0;
 
 	int now = alis[y][x];
 
 	for (int i = 0; i < 4; i++) {
+
 		int now_y = y + dy[i];
 		int now_x = x + dx[i];
 
@@ -40,6 +38,7 @@ int dfs(int y, int x) {
 			dp[y][x] += dfs(now_y, now_x);
 		}
 	}
+
 	return dp[y][x];
 }
 
@@ -52,9 +51,7 @@ int main() {
 	dp.assign(n, vector<int>(m, -1));
 
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < m; j++) {
-			cin >> alis[i][j];
-		}
+		for (int j = 0; j < m; j++) cin >> alis[i][j];
 	}
 
 	cout << dfs(0, 0);

@@ -20,6 +20,7 @@ int main() {
 	size_t pos = 0;
 
 	while((pos = word.find(prim,pos)) != string ::npos) {
+
 		cnt++;
 		
 		pos += prim.length();

@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// pq
+
 int main() {
 
 	int n;
@@ -18,11 +20,14 @@ int main() {
 	cin >> prim;
 
 	if (n == 1) {
+
 		cout << 0;
 		return 0;
+
 	}
 
 	for (int i = 1; i < n; i++) {
+
 		int num;
 
 		cin >> num;

@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// dijkstra
+
 struct edge
 {
 	int to, cost;

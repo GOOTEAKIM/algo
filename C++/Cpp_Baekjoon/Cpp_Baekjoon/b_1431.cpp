@@ -22,9 +22,7 @@ bool cmp(const string& a, const string& b) {
 		
 	}
 
-	if (sum_a != sum_b) {
-		return sum_a < sum_b;
-	}
+	if (sum_a != sum_b) return sum_a < sum_b;
 
 	return a < b;
 
@@ -38,15 +36,11 @@ int main() {
 
 	vector<string> alis(n);
 
-	for (int i = 0; i < n; i++) {
-		cin >> alis[i];
-	}
+	for (int i = 0; i < n; i++) cin >> alis[i];
 
 	sort(alis.begin(), alis.end(), cmp);
 
-	for (auto next : alis) {
-		cout << next << "\n";
-	}
-
+	for (auto next : alis) cout << next << "\n";
+	
 	return 0;
 }
